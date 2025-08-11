@@ -1,0 +1,20 @@
+| Component              | Description                                     |
+| ---------------------- | ----------------------------------------------- |
+| **Arduino Uno**        | Main controller                                 |
+| **LiquidCrystal\_I2C** | 16x2 LCD (I2C, likely address 0x27)             |
+| **4x3 Keypad**         | Standard 12-key matrix keypad                   |
+| **RGB LED**            | Separate control over Red, Green, Blue channels |
+| **Buzzer**             | Active or passive buzzer                        |
+| **Misc**               | Pull-down resistors (optional), wiring          |
+
+
+| Arduino Pin | Connected To               |
+| ----------- | -------------------------- |
+| 2           | **BLUE LED**               |
+| 3           | **GREEN LED**              |
+| 4           | **RED LED**                |
+| 5           | **BUZZER**                 |
+| 6–9         | **Keypad Rows (R1–R4)**    |
+| 10–12       | **Keypad Columns (C1–C3)** |
+| A4 (SDA)    | **LCD SDA**                |
+| A5 (SCL)    | **LCD SCL**                |
